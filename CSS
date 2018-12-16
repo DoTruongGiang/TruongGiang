@@ -1,54 +1,125 @@
-.navbar-nav>li{
-	padding: 0px 20px;
-	font-weight: bold;
-	font-size: 16px;
+@media (min-width: 768px)
+.col-sm-push-3{ 
+    left: 25%;
 }
-.dropdown{
+.col-sm-push-3{
+	font-family: "Segoe Print";
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+.col-sm-6{
+	float: left;
+}
+.col-sm-6{
 	position: relative;
-	display: inline-block;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
-#textsearch{
-	height: 30px;
-	width: 160px;
-	position: absolute;z-index: 99;top: 0;right: 0;
-	border: 0;
-	background: #f7f7f7;
+.col-sm-3 {
+    width: 25%;
 }
-#search-button{
-	height: 30px;
-	width: 34px;
-	position: absolute;z-index: 99;top: 0;right: 0;
-	border: 0;
-	cursor: pointer;
+.col-sm-3{
+	float: right;
 }
-/*sub-menu*/
-.dropdown-content{
-	display: none;
-	position: absolute;
-	background-color: #f5f5f5;
-	z-index: 1;
-	list-style: none;
+.col-sm-3{
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
-.dropdown:hover .dropdown-content{
+.col-sm-pull-6 {
+    right: 50%;
+}
+.col-sm-pull-6{
+	font-family: "Franklin Gothic Medium";
+}
+.col-sm-2 {
+    width: 16.66666667%;
+}
+.col-sm-2{
+	float: left;
+}
+.col-sm-2{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.hero-links {
+    margin-top: -10px;
+}
+.col-sm-8 {
+    width: 66.66666667%;
+}
+.col-sm-8{
+	float: left;
+}
+.col-sm-8{
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+.text-right {
+    text-align: right;
+}
+.col-xs-3 {
+    width: 25%;
+}
+.col-xs-3{
+	float: left;
+}
+.col-xs-3{
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.home-menu {
+    background: #f9f9f9;
+    margin: 10px 40px 20px;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+.col-xs-9{
+	width: 75%;
+
+}
+.col-xs-9{
+	float: left;
+}
+.col-xs-9{
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+*{
+	font-family: "futura-pt";
+}
+*{
+	box-sizing: border-box;
+}
+div{
 	display: block;
 }
-#navbarSupportedContent{
-	padding-left: 40px;
+body{
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff; 
 }
 
-.film{
-	  border: 5px solid #232321;
-      border-radius: 0.25rem;
-
-}
-.center{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-.caption{
-	text-align: center;
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
