@@ -15,13 +15,85 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<span class="navbar-toggler-icon">abc</span>
-		</button>
+<div class="home-header">
+	<div class="container">
+	::before	
+		<div class="row">
+		 	::before
+			<div class="col-sm-6 col-sm-push-3">
+				<div class="big-logo logo">
+					<h1>Enjoys Food</h1>					
+				</div>
+				<h2>the art and soul of eating</h2>
+			</div>
+		<div class="col-sm-3 col-sm-push-6">
+			<div class="header-link">
+				::before
+				<a href="https://dantri.com.vn/" title="WHAT TO MAKE THIS JANUARY" class="posttitle">
+					<h3>WHAT TO MAKE THIS JANUARY</h3>
+				</a>
+				::after
+		<div class="col-sm-3">
+			<div class="header-link">
+				::before
+				<a href="https://dantri.com.vn/" title="BLACK FRIDAY" class="posttitle">
+					<h3>BLACK FRIDAY</h3>
+				</a>
+				::after
+			</div>
+		</div>	
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-2">
+		<a href="https://www.w3schools.com/" class="subscribe-link">Subcribe</a>
+	</div>
+	<div class="col-sm-8 text-center hero-link">
+		<a href="#">RECIPES</a>
+		<a href="#">FOOD</a>
+		<a href="#">TRAVEL</a>
+	</div>
+	<div class="col-sm-2 text-right">
+		<div class="icons">
+			<a href="https://www.facebook.com/" target="_blank" class="square">
+				<div class="icon icon-fb"></div>
+			</a>
+			<a href="https://www.instagram.com/" target="_blank" class="square">
+				<div class="icon icon-ig"></div>
+			</a>
+		</div>
+	</div>
+</div>	
+<div class="home-menu">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="mini-search">
+					<form role="search" method="action" get="/">
+						<button class="icon-search">
+							<span>Search</span>
+						</button>
+						<input type="text" name="s" value placeholder="Search">
+					</form>
+				</div>
+			</div>
+			<div class="col-xs-9 text-right">
+				<a href="#">ABOUT</a>
+				<a href="#">CONTACT</a>
+				<a href="#">FAQ</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 					<div id="header">
-						<div style="float: left;width: 100px;height: 100px;margin: 0 500px 0 35px;border: 1px solid #000000">
+						<div style="float: left;width: 100px;height: 100px;margin: 0 500px 0 35px">
 							<a href="#"><img src="chef-logo-vector_20448-270.jpg" height="100" width="100"></a>
 						</div>	
 								
@@ -35,35 +107,15 @@
 						</form>
 					</div>
 
-
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Món ăn
-					</a>
-					<div class="dropdown-content" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="Vegetable.html">Vegetable</a>
-						<a class="dropdown-item" href="Meat.html">Meat</a>
-						<a class="dropdown-item" href="Chicken.html">Chicken</a>
-						<a class="dropdown-item" href="Beef.html">Beef</a>
-        			</li>
-
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Quốc Gia
-						</a>
-						<div class="dropdown-content" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="VN.html">Viet Nam</a>
-							<a class="dropdown-item" href="TL.html">Thailand</a>
-							<a class="dropdown-item" href="Ko.html">Korea</a>
-							<a class="dropdown-item" href="Ja.html">Japan</a>
-
-
+						<li class="nav-item">
+							<a class="nav-link" href="monan.html">FOOD</a>
+						<li class="nav-item">
+							<a class="nav-link" href="congthuc.html">RECIPES</a>
+						<li class="nav-item">
+							<a class="nav-link" href="baiviet.html">POSTS</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="baiviet.html">Bài viết</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="binhluan.html">Bình luận</a>
+							<a class="nav-link" href="binhluan.html">COMMENTS</a>
 						</li>
 
 					</ul>
@@ -74,33 +126,29 @@
 			<br><br><br>
 <!-- Slide Image -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
+
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="d-block w-100" src="lemongrass-chicken-recipe_4.jpg" alt="First slide">
+						<img class="d-block w-100" src="canhsuonbo.jpg" alt="First slide">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>Crispy Pan Fried Lemongrass Chicken Recipe</h5>
+							<h5>Canh Suon Bo</h5>
 							<p>5.607 comments</p>
 						</div>
 					</div>
 
 					<div class="carousel-item">
-						<img class="d-block w-100" src="IAM_2359.jpg" alt="Second slide">
+						<img class="d-block w-100" src="chaoyenmachvoibingodaudonghien.jpg" alt="Second slide">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>An Instant Pot Thanksgiving Dinner</h5>
-							<p>4.705 comments</p>
+							<h5>Chao Yen</h5>
+							<p>5.567 comments</p>
 						</div>
 					</div>
 
 					<div class="carousel-item">
-						<img class="d-block w-100" src="authentic-instant-pot-chicken-rendang_0455.jpg" alt="Third slide">
+						<img class="d-block w-100" src="mylanh.jpg" alt="Third slide">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>Instant Pot Chicken Rendang Recipe</h5>
+							<h5>My Lanh</h5>
 							<p>6.065 comments</p>
 						</div>
 					</div>
@@ -158,16 +206,7 @@
 							<ul class="nav nav-pills nav-stacked">
 								<li><a href="#">Product Help</a></li>
 								<li><a href="#">Developer API</a></li>
-							</ul>
-						</div>  
-					</div>
-				</div>
-				<hr>
-				<div class="row">
-					<div class="col-lg-12">
-						<ul class="nav nav-pills nav-justified">
-							<li><a href="/">© 2013 Company Name.</a></li>
-							<li><a href="#">Terms of Service</a></li>
+						=><a href="#">Terms of Service</a></li>
 							<li><a href="#">Privacy</a></li>
 						</ul>
 					</div>
@@ -176,6 +215,28 @@
 
 			<script type="text/javascript" src="jquery.js"></script>
 			<script type="text/javascript" src="js/bootstrap.min.js"></script>
+			<div id="menu">
+	<button type="button" class="hamburger is-closed animated fadeInLeft">
+		<span class="hamb-top"></span>
+		<span class="hamb-middle"></span>
+		<span class="hamb-bottom"></span>
+	</button>
+	<a href="/" class="logo"><h1>Enjoys Food</h1></a>
+	<a href="#" class="subscribe-link">Subscribe</a>
+
+	<div class="mini-search">
+		<form role="search" method="get" action="/">
+			<button class="icon-search"><span>Search i am a food blog</span></button>
+			<input type="text" name="s" value="" placeholder="Search" />
+		</form>
+	</div>
+	<div class="icons">
+		<a href="http://instagram.com/iamafoodblog" class="square" target="_blank"><div class="icon icon-ig"></div></a>
+		<a href="http://pinterest.com/iamafoodblog" target="_blank"><div class="icon icon-pin"></div></a>
+		<a href="http://facebook.com/iamafoodblog" target="_blank" class="square"><div class="icon icon-fb"></div></a>
+		<a href="https://www.bloglovin.com/blog/3494862" target="_blank"><div class="icon icon-bl"></div></a>
+	</div>
+
 		</body>
 		</html>
 
