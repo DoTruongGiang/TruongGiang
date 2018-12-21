@@ -1,0 +1,58 @@
+<div class="home-header">
+	<div class="container">
+		<div class="row">
+			<div class="header1 sp-header1">
+				<div class="big-logo logo">
+					<h1>Enjoys Food</h1>
+				</div>
+				<h2>The art and soul of eating</h2>
+			</div>
+			<div class="header2 sp-header2">
+				<div class="header-link">
+					<a href="#" title="What to make this JANUARY" class="posttitle">
+						<h3>What to make this JANUARY</h3>
+						"Looking for some fun party food to make this JANUARY"
+					</a>
+					<a href="#" title="What to make this JANUARY" class="read-more">Read this list</a>
+				</div>
+			</div>
+			<div class="header3">
+				<div class="header-link">
+					<a href="#" title="Black Friday Finds 01-01-2019" class="posttitle">
+						<h3>Black Friday Finds 01-01-2019</h3>
+						"It's time to shop"
+					</a>
+					<a href="#" title="Black Friday Finds 01-01-2019" class="read-more">Get the goods</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="subscribe1">
+				<a href="#" class="subscribe-link">
+					"Subscribe"
+				</a>
+			</div>
+			<div class="recipe1 text-center hero-link">
+				<a href="#">Recipes</a>
+				<a href="#">Food</a>
+				<a href="#">Travel</a>
+			</div>
+			<div class="icons1">
+				<div class="icons">
+				<a href="https://www.instagram.com/iamafoodblog/" class="square" target="_blank">
+						<div class="icon icon-ig"></div>
+					</a>
+					<a href="https://www.pinterest.com/iamafoodblog/" target="_blank">
+						<div class="icon icon-pin"></div>
+					</a>
+					<a href="https://www.facebook.com/iamafoodblog" target="_blank" class="square">
+						<div class="icon icon-fb"></div>
+					</a>
+					<a href="https://www.bloglovin.com/blogs/i-am-a-food-blog-3494862" target="_blank">
+						<div class="icon icon-bl"></div>
+					</a>		
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
