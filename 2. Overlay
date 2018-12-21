@@ -1,0 +1,59 @@
+<div class="overlay display-font">
+	<div class="menu1">
+		<div class="row" style="padding-top: 100px;">
+			<div class="font1">
+				<form role="search" method="get" action="/">
+					<button class="icon-search">
+						<span>Search Enjoys Food</span>
+					</button>
+					<input type="text" name="s" value placeholder="Search">
+				</form>
+			</div>
+			<div class="font1">
+				<div class="icons">
+					<a href="https://www.instagram.com/iamafoodblog/" class="square" target="_blank">
+						<div class="icon icon-ig"></div>
+					</a>
+					<a href="https://www.pinterest.com/iamafoodblog/" target="_blank">
+						<div class="icon icon-pin"></div>
+					</a>
+					<a href="https://www.facebook.com/iamafoodblog" target="_blank" class="square">
+						<div class="icon icon-fb"></div>
+					</a>
+					<a href="https://www.bloglovin.com/blogs/i-am-a-food-blog-3494862" target="_blank">
+						<div class="icon icon-bl"></div>
+					</a>					
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="font1 overlay-menu">
+				<a href="#">Front Page</a>
+				<a href="#">All Recipes</a>
+				<a href="#">Make me something good</a>
+				<a href="#">Quick & Easy</a>
+				<a href="#">Mains</a>
+				<a href="#">Breakfast/Brunch</a>
+			</div>
+			<div class="font1 overlay-menu side-menu">
+				<a href="/">Buy Guide</a>
+				<a href="/">Cooking Basic</a>
+				<hr class="noodle-hr">
+				<a href="/">Contact</a>
+				<a href="/">Work with us</a>
+			</div>
+		</div>
+	</div>
+	<div class="menu2" style="height: 100%;">
+		<div class="sidekick">
+			<a href="http://iamafoodblog.com/cheeseburger-and-egg-grilled-cheese-recipe/" title="Sunday Brunch: Cheeseburger and Egg Grilled Cheese Recipe" style="background-image: url(https://supervalu.co.uk/wp-content/uploads/2018/09/Cheeseburger.png)" class="background"></a>
+			<a href="http://iamafoodblog.com/cheeseburger-and-egg-grilled-cheese-recipe/" title="Sunday Brunch: Cheeseburger and Egg Grilled Cheese Recipe" class="posttitle">
+				<h4>
+					"From the archives"
+					<br>
+					"Sunday Brunch: Cheeseburger and Egg Grilled Cheese Recipe"
+				</h4>
+			</a>
+		</div>
+	</div>
+</div>
