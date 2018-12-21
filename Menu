@@ -1,0 +1,33 @@
+<div id="menu">
+	<button type="button" class="hamburger is-closed animated fadeInLeft">
+		<span class="hamb-top"></span>
+		<span class="hamb-middle"></span>
+		<span class="hamb-bottom"></span>
+	</button>
+	<a href="#" class="logo">
+		<h1>Enjoys Food</h1>
+	</a>
+	<a href="#" class="subscribe-link">Subcribe</a>
+	<div class="mini-search">
+		<form role="search" method="get" action="/">
+			<button class="icon-search">
+				<span>Search Enjoys Food</span>
+			</button>
+			<input type="text" name="s" value placeholder="Search">
+		</form>
+	</div>
+	<div class="icon">
+		<a href="https://www.instagram.com/iamafoodblog/" class="square" target="_blank">
+			<div class="icon icon-ig"></div>
+		</a>
+		<a href="https://www.pinterest.com/iamafoodblog/" target="_blank">
+			<div class="icon icon-pin"></div>
+		</a>
+		<a href="https://www.facebook.com/iamafoodblog" target="_blank" class="square">
+			<div class="icon icon-fb"></div>
+		</a>
+		<a href="https://www.bloglovin.com/blogs/i-am-a-food-blog-3494862" target="_blank">
+			<div class="icon icon-bl"></div>
+		</a>
+	</div>
+</div>	
