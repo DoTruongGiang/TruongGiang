@@ -14,61 +14,162 @@
 
 
 </head>
-<body>
-<div class="home-header">
-	<div class="container">
-	::before	
-		<div class="row">
-		 	::before
-			<div class="col-sm-6 col-sm-push-3">
-				<div class="big-logo logo">
-					<h1>Enjoys Food</h1>					
+<body class="home-page">
+<div id="menu">
+	<button type="button" class="hamburger is-closed animated fadeInLeft">
+		<span class="hamb-top"></span>
+		<span class="hamb-middle"></span>
+		<span class="hamb-bottom"></span>
+	</button>
+	<a href="#" class="logo">
+		<h1>Enjoys Food</h1>
+	</a>
+	<a href="#" class="subscribe-link">Subcribe</a>
+	<div class="mini-search">
+		<form role="search" method="get" action="/">
+			<button class="icon-search">
+				<span>Search Enjoys Food</span>
+			</button>
+			<input type="text" name="s" value placeholder="Search">
+		</form>
+	</div>
+	<div class="icon">
+		<a href="https://www.instagram.com/iamafoodblog/" class="square" target="_blank">
+			<div class="icon icon-ig"></div>
+		</a>
+		<a href="https://www.pinterest.com/iamafoodblog/" target="_blank">
+			<div class="icon icon-pin"></div>
+		</a>
+		<a href="https://www.facebook.com/iamafoodblog" target="_blank" class="square">
+			<div class="icon icon-fb"></div>
+		</a>
+		<a href="https://www.bloglovin.com/blogs/i-am-a-food-blog-3494862" target="_blank">
+			<div class="icon icon-bl"></div>
+		</a>
+	</div>
+</div>	
+<div class="overlay display-font">
+	<div class="menu1">
+		<div class="row" style="padding-top: 100px;">
+			<div class="font1">
+				<form role="search" method="get" action="/">
+					<button class="icon-search">
+						<span>Search Enjoys Food</span>
+					</button>
+					<input type="text" name="s" value placeholder="Search">
+				</form>
+			</div>
+			<div class="font1">
+				<div class="icons">
+					<a href="https://www.instagram.com/iamafoodblog/" class="square" target="_blank">
+						<div class="icon icon-ig"></div>
+					</a>
+					<a href="https://www.pinterest.com/iamafoodblog/" target="_blank">
+						<div class="icon icon-pin"></div>
+					</a>
+					<a href="https://www.facebook.com/iamafoodblog" target="_blank" class="square">
+						<div class="icon icon-fb"></div>
+					</a>
+					<a href="https://www.bloglovin.com/blogs/i-am-a-food-blog-3494862" target="_blank">
+						<div class="icon icon-bl"></div>
+					</a>					
 				</div>
-				<h2>the art and soul of eating</h2>
 			</div>
-		<div class="col-sm-3 col-sm-pull-6">
-			<div class="header-link">
-				::before
-				<a href="https://dantri.com.vn/" title="WHAT TO MAKE THIS JANUARY" class="posttitle">
-					<h3>WHAT TO MAKE THIS JANUARY</h3>
-				</a>
-				::after
-		<div class="col-sm-3">
-			<div class="header-link">
-				::before
-				<a href="https://dantri.com.vn/" title="BLACK FRIDAY" class="posttitle">
-					<h3>BLACK FRIDAY</h3>
-				</a>
-				::after
+		</div>
+		<div class="row">
+			<div class="font1 overlay-menu">
+				<a href="#">Front Page</a>
+				<a href="#">All Recipes</a>
+				<a href="#">Make me something good</a>
+				<a href="#">Quick & Easy</a>
+				<a href="#">Mains</a>
+				<a href="#">Breakfast/Brunch</a>
 			</div>
-		</div>	
+			<div class="font1 overlay-menu side-menu">
+				<a href="/">Buy Guide</a>
+				<a href="/">Cooking Basic</a>
+				<hr class="noodle-hr">
+				<a href="/">Contact</a>
+				<a href="/">Work with us</a>
+			</div>
+		</div>
+	</div>
+	<div class="menu2" style="height: 100%;">
+		<div class="sidekick">
+			<a href="http://iamafoodblog.com/cheeseburger-and-egg-grilled-cheese-recipe/" title="Sunday Brunch: Cheeseburger and Egg Grilled Cheese Recipe" style="background-image: url(https://supervalu.co.uk/wp-content/uploads/2018/09/Cheeseburger.png)" class="background"></a>
+			<a href="http://iamafoodblog.com/cheeseburger-and-egg-grilled-cheese-recipe/" title="Sunday Brunch: Cheeseburger and Egg Grilled Cheese Recipe" class="posttitle">
+				<h4>
+					"From the archives"
+					<br>
+					"Sunday Brunch: Cheeseburger and Egg Grilled Cheese Recipe"
+				</h4>
+			</a>
 		</div>
 	</div>
 </div>
-<div class="row">
-	<div class="col-sm-2">
-		<a href="https://www.w3schools.com/" class="subscribe-link">Subcribe</a>
-	</div>
-	<div class="col-sm-8 text-center hero-link">
-		<a href="#">RECIPES</a>
-		<a href="#">FOOD</a>
-		<a href="#">TRAVEL</a>
-	</div>
-	<div class="col-sm-2 text-right">
-		<div class="icons">
-			<a href="https://www.facebook.com/" target="_blank" class="square">
-				<div class="icon icon-fb"></div>
-			</a>
-			<a href="https://www.instagram.com/" target="_blank" class="square">
-				<div class="icon icon-ig"></div>
-			</a>
+<div class="home-header">
+	<div class="container">
+		<div class="row">
+			<div class="header1 sp-header1">
+				<div class="big-logo logo">
+					<h1>Enjoys Food</h1>
+				</div>
+				<h2>The art and soul of eating</h2>
+			</div>
+			<div class="header2 sp-header2">
+				<div class="header-link">
+					<a href="#" title="What to make this JANUARY" class="posttitle">
+						<h3>What to make this JANUARY</h3>
+						"Looking for some fun party food to make this JANUARY"
+					</a>
+					<a href="#" title="What to make this JANUARY" class="read-more">Read this list</a>
+				</div>
+			</div>
+			<div class="header3">
+				<div class="header-link">
+					<a href="#" title="Black Friday Finds 01-01-2019" class="posttitle">
+						<h3>Black Friday Finds 01-01-2019</h3>
+						"It's time to shop"
+					</a>
+					<a href="#" title="Black Friday Finds 01-01-2019" class="read-more">Get the goods</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="subscribe-link">
+				<a href="#" class="subscribe-link">
+					"Subscribe"
+				</a>
+			</div>
+			<div class="recipe1 text-center hero-link">
+				<a href="#">Recipes</a>
+				<a href="#">Food</a>
+				<a href="#">Travel</a>
+			</div>
+			<div class="icons1">
+				<div class="icons">
+				<a href="https://www.instagram.com/iamafoodblog/" class="square" target="_blank">
+						<div class="icon icon-ig"></div>
+					</a>
+					<a href="https://www.pinterest.com/iamafoodblog/" target="_blank">
+						<div class="icon icon-pin"></div>
+					</a>
+					<a href="https://www.facebook.com/iamafoodblog" target="_blank" class="square">
+						<div class="icon icon-fb"></div>
+					</a>
+					<a href="https://www.bloglovin.com/blogs/i-am-a-food-blog-3494862" target="_blank">
+						<div class="icon icon-bl"></div>
+					</a>		
+				</div>
+			</div>
 		</div>
 	</div>
-</div>	
+</div>
+
 <div class="home-menu">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-3">
+			<div class="search1">
 				<div class="mini-search">
 					<form role="search" method="action" get="/">
 						<button class="icon-search">
@@ -78,7 +179,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="col-xs-9 text-right">
+			<div class="bar1 text-right">
 				<a href="#">ABOUT</a>
 				<a href="#">CONTACT</a>
 				<a href="#">FAQ</a>
@@ -86,9 +187,10 @@
 		</div>
 	</div>
 </div>
+
 <div class="container five-aline">
 	<div class="row">
-					<div class="col-sm-25 col-sm-push-15 hero-center">
+					<div class="trangchu1 sp-trangchu1 hero-center">
 			<a href="http://iamafoodblog.com/authentic-instant-pot-chicken-pho-recipe/" style="background: url(https://assets.epicurious.com/photos/5899f89c780a6d597f541199/6:4/w_620%2Ch_413/instant-pot-chicken-pho-020717.jpg); padding-top: 66%; background-size: cover;display: block; "></a>
 			<a href="http://iamafoodblog.com/authentic-instant-pot-chicken-pho-recipe/">
 			<h1>Pot Chicken Pho Recipe</h1>
@@ -96,7 +198,7 @@
 			</a>
 		</div>
 
-		<div class="col-sm-15 col-sm-pull-25">
+		<div class="trangchu2 sp-trangchu2">
 			<div>
 			<a href="http://iamafoodblog.com/how-to-roast-honeynut-squash-honeynut-squash-with-honeyed-walnuts/" rel="bookmark" style="background: url(https://www.findingveggiejoy.com/wp-content/uploads/2017/11/How-to-Roast-Honeynut-Squash-Roasted-Squash-Finding-Veggie-Joy.jpg); background-size: cover;" class="tall-thumbnail"></a>
 			<a href="http://iamafoodblog.com/how-to-roast-honeynut-squash-honeynut-squash-with-honeyed-walnuts/" rel="bookmark" title="How to roast honeynut squash.">
@@ -104,7 +206,7 @@
 			</a>
 			</div>
 		</div>
-		<div class="col-sm-15">
+		<div class="trangchu3">
 			<div>
 				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" style="background: url(https://www.africanbites.com/wp-content/uploads/2018/04/IMG_0165.jpg); background-size: cover;"
 				class="tall-thumbnail"></a>
@@ -126,8 +228,6 @@
 			</div>
 		</div>
 	</div>
-</div>
-</div>
 </div>
 
 
@@ -216,27 +316,6 @@
 
 			<script type="text/javascript" src="jquery.js"></script>
 			<script type="text/javascript" src="js/bootstrap.min.js"></script>
-			<div id="menu">
-	<button type="button" class="hamburger is-closed animated fadeInLeft">
-		<span class="hamb-top"></span>
-		<span class="hamb-middle"></span>
-		<span class="hamb-bottom"></span>
-	</button>
-	<a href="/" class="logo"><h1>Enjoys Food</h1></a>
-	<a href="#" class="subscribe-link">Subscribe</a>
-
-	<div class="mini-search">
-		<form role="search" method="get" action="/">
-			<button class="icon-search"><span>Search enjoys food</span></button>
-			<input type="text" name="s" value="" placeholder="Search" />
-		</form>
-	</div>
-	<div class="icons">
-		<a href="http://instagram.com/iamafoodblog" class="square" target="_blank"><div class="icon icon-ig"></div></a>
-		<a href="http://pinterest.com/iamafoodblog" target="_blank"><div class="icon icon-pin"></div></a>
-		<a href="http://facebook.com/iamafoodblog" target="_blank" class="square"><div class="icon icon-fb"></div></a>
-		<a href="https://www.bloglovin.com/blog/3494862" target="_blank"><div class="icon icon-bl"></div></a>
-	</div>
 
 		</body>
 		</html>
