@@ -30,40 +30,40 @@
     z-index: 999;
     padding: 0;
 }
-#button {
+button {
     color: #fff;
     font-size: 13px;
 }
-#button {
+button {
     font-family: inherit;
     line-height: inherit;
 }
-#button{
+button{
     -webkit-appearance: button;
     cursor: pointer;
 }
-#button {
+button {
     text-transform: none;
 }
-#button {
+button {
     overflow: visible;
 }
-#button {
+button {
     margin: 0;
     font: inherit;
 }
-#button {
+button {
     align-items: flex-start;
     text-align: center;
 }
-#button {
+button {
     text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
     text-indent: 0px;
     text-shadow: none;
 }
-#button {
+button {
     -webkit-writing-mode: horizontal-tb !important;
 }
 .hamburger.is-closed {
@@ -198,7 +198,7 @@ a {
     height: 18px;
     vertical-align: bottom;
 }
-#button.icon-search {
+button.icon-search {
     display: inline-block;
     padding: 0;
     margin: 0 4px 0 0;
@@ -330,17 +330,17 @@ input {
     height: 24px;
     width: 24px;
 }
-#buttion.icon-search {
+buttion.icon-search {
     display: inline-block;
     padding: 0;
     margin: 0 4px 0 0;
     vertical-align: top;
 }
 .icon-search {
-    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgZmlsbD0iI…41LDI5LjhTMTcuNCw3LjYsMjkuNyw3LjZTNTEuOCwxNy41LDUxLjgsMjkuOHoiLz48L3N2Zz4=) 50% 50% no-repeat;
+    background: url(https://img.icons8.com/metro/1600/search.png) 50% 50% no-repeat;
     background-size: 100%;
 }
-#button {
+button {
     border: 0;
     color: #fff;
     font-size: 13px;
@@ -601,14 +601,282 @@ h3 {
 .icons1 {
     float: left;
 }
-
-
-
-
-
-
-
-
+.icons1 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-right {
+    text-align: right;
+}
+.home-header .icons .icon {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    display: inline-block;
+}
+.home-menu {
+    background: #f9f9f9;
+    margin: 10px 40px 20px;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+.search1 {
+    width: 25%;
+}
+.search1 {
+    float: left;
+}
+.search1 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.mini-search {
+    position: relative;
+}
+button.icon-search {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    padding: 0;
+    margin: 0 4px 0 0;
+    vertical-align: top;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+button {
+    border: 0;
+    color: #fff;
+    font-size: 13px;
+}
+.mini-search input[type="text"] {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #000;
+    height: 18px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none !important;
+    font-size: 9px;
+    font-weight: 700;
+    -webkit-appearance: none;
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    border-radius: 0;
+}
+.bar1 {
+    width: 75%
+}
+.bar1 {
+    float: left;
+}
+.bar1 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.home-menu a {
+    display: inline-block;
+    margin-left: 20px;
+    color: #000;
+    font-weight: 700;
+}
+.sp-trangchu1 {
+    left: 19%;
+}
+.trangchu1 {
+    width: 62%;
+    float: left;
+}
+.trangchu1 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.five-alive a h1 {
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    font-size: 28px;
+    margin: 20px 40px 0;
+    letter-spacing: -0.05em;
+}
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.sp-trangchu2 {
+    right: 62%;
+}
+.trangchu2 {
+    width: 19%;
+    float: left;
+}
+.trangchu2 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.tall-thumbnail {
+    padding-top: 120%;
+    display: block;
+}
+.five-alive a h4 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4 {
+    font-family: inherit;
+    line-height: 1.1;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.sp-trangchu3 {
+    width: 19%;
+    float: left;
+}
+.trangchu3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.five-alive a h4 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.quickies-container {
+    padding: 26px 0 60px;
+    position: relative;
+}
+.quickies-container .box {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -122px;
+    text-transform: uppercase;
+    padding: 8px 0 0;
+    z-index: 2;
+}
+.box {
+    width: 244px;
+    height: 52px;
+    text-align: center;
+    border: 3px solid #000;
+    background: #fff;
+}
+.box h6 {
+    letter-spacing: 0.3em;
+    font-size: 8px;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+}
+h6 {
+    font-family: inherit;
+    line-height: 1.1;
+}
+h6 {
+    display: block;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.box h2 {
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    font-size: 20px;
+    color: #000;
+}
+h2 {
+    font-family: inherit;
+    line-height: 1.1;
+}
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.quickies {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+    text-align: center;
+}
+.noodle-br {
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AuMzFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTQ1LjkzOCAtMjk0NSkiLz4NCjwvc3ZnPg0K) #fff;
+    background-size: 26px;
+}   
+.quickie1 {
+    width: 25%;
+}
+.quickie1 {
+    float: left;
+}
+.quickie1 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.quickie .background {
+    padding-top: 90%;
+    display: block;
+    border-radius: 100%;
+    width: 90%;
+    margin: 20px auto;
+}
+.five-alive a h4 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.quickie h4 {
+    min-height: 30px;
+}
 
 
 
@@ -727,10 +995,13 @@ h3 {
 div{
 	display: block;
 }
+
 body{
-	line-height: 1.42857143;
-	color: #333;
-	background-color: #fff; 
+
+    background-image: url("https://www.brewsterwallcovering.com/images/thumbs/0010586_white-nubby-cloth_600.jpeg");
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff; 
 }
 
 html {
