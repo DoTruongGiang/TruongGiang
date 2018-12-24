@@ -30,42 +30,6 @@
     z-index: 999;
     padding: 0;
 }
-button {
-    color: #fff;
-    font-size: 13px;
-}
-button {
-    font-family: inherit;
-    line-height: inherit;
-}
-button{
-    -webkit-appearance: button;
-    cursor: pointer;
-}
-button {
-    text-transform: none;
-}
-button {
-    overflow: visible;
-}
-button {
-    margin: 0;
-    font: inherit;
-}
-button {
-    align-items: flex-start;
-    text-align: center;
-}
-button {
-    text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-indent: 0px;
-    text-shadow: none;
-}
-button {
-    -webkit-writing-mode: horizontal-tb !important;
-}
 .hamburger.is-closed {
     -webkit-transition: all 0.35s ease-in-out;
     color: #ffffff;
@@ -136,34 +100,8 @@ button {
     background: url(https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/48388877_397993970949587_223696727297753088_n.png?_nc_cat=100&_nc_ht=scontent.fhan2-4.fna&oh=1c68790241bb0807eb448c1ed97c88f2&oe=5CA61DB8) 50% 50% no-repeat;
     background-size: contain;
 }
-a {
-    color: #0090ff;
-    text-decoration: none;
-}
 .logo h1 {
     display: none;
-}
-h1 {
-    font-size: 36px;
-}
-h1 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-h1 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit;    
-}
-h1 {
-    margin: .67em 0;
-}
-h1 {
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;    
 }
 #menu .subscribe-link {
     height: 50px;
@@ -180,9 +118,7 @@ h1 {
     letter-spacing: 3px;
     color: #f00;
 }
-a {
-    background-color: transparent;
-}
+
 #menu .mini-search {
     display: none;
 }
@@ -232,23 +168,6 @@ button.icon-search {
     font-weight: 700;
     -webkit-appearance: none;
     border-radius: 0;
-}
-* input {
-    font-family: "futura-pt";      
-}
-input {
-    margin: 0;
-    font: inherit;
-}
-input {
-    padding: 1px 0px;
-}
-input {
-    text-rendering: auto;
-    word-spacing: normal;
-    text-indent: 0px;
-    text-shadow: none;
-    text-align: start;   
 }
 #menu .icons {
     top: 16px;
@@ -330,7 +249,7 @@ input {
     height: 24px;
     width: 24px;
 }
-buttion.icon-search {
+button.icon-search {
     display: inline-block;
     padding: 0;
     margin: 0 4px 0 0;
@@ -339,11 +258,6 @@ buttion.icon-search {
 .icon-search {
     background: url(https://img.icons8.com/metro/1600/search.png) 50% 50% no-repeat;
     background-size: 100%;
-}
-button {
-    border: 0;
-    color: #fff;
-    font-size: 13px;
 }
 .overlay input[type="text"] {
     height: 24px;
@@ -416,9 +330,6 @@ button {
     margin-right: -15px;
     margin-left: -15px;
 }
-.sp-header1 {
-    left: 25%;
-}
 .header1 {
     width: 50%;
 }
@@ -444,21 +355,6 @@ button {
     font-weight: 700;
     color: #000;
     letter-spacing: 0.2em;
-}
-h2 {
-    font-family: Monotype Corsiva;
-    line-height: 1.1;
-}
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.sp-header2 {
-    right: 50%;
 }
 .header2 {
     width: 25%;
@@ -491,18 +387,7 @@ h2 {
     letter-spacing: 0.2em;
     margin: 0 0 5px;
 }
-h3 {
-    font-family: inherit;
-    line-height: 1.1;
-    color: inherit;
-}
-h3 {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 .header-link a.posttitle {
     text-transform: uppercase;
 }
@@ -583,9 +468,7 @@ h3 {
     display: inline-block;
     font-size: 19px;
 }
-.hero-links a:last-of-type {
-    border: 0;
-}
+
 .hero-links a {
     text-transform: uppercase;
     padding: 4px 15px;
@@ -648,15 +531,6 @@ button.icon-search {
     margin: 0 4px 0 0;
     vertical-align: top;
 }
-form {
-    display: block;
-    margin-top: 0em;
-}
-button {
-    border: 0;
-    color: #fff;
-    font-size: 13px;
-}
 .mini-search input[type="text"] {
     background: none;
     border: 0;
@@ -692,9 +566,6 @@ button {
     color: #000;
     font-weight: 700;
 }
-.sp-trangchu1 {
-    left: 19%;
-}
 .trangchu1 {
     width: 62%;
     float: left;
@@ -713,16 +584,7 @@ button {
     margin: 20px 40px 0;
     letter-spacing: -0.05em;
 }
-h1 {
-    display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.sp-trangchu2 {
-    right: 62%;
-}
+
 .trangchu2 {
     width: 19%;
     float: left;
@@ -745,25 +607,6 @@ h1 {
     letter-spacing: 0.3em;
     text-align: center;
     padding-bottom: 10px;
-}
-h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-h4 {
-    font-family: inherit;
-    line-height: 1.1;
-}
-h4 {
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.sp-trangchu3 {
-    width: 19%;
-    float: left;
 }
 .trangchu3 {
     position: relative;
@@ -807,34 +650,13 @@ h4 {
     margin: 0;
     color: #000;
 }
-h6 {
-    font-family: inherit;
-    line-height: 1.1;
-}
-h6 {
-    display: block;
-    margin-block-start: 2.33em;
-    margin-block-end: 2.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 .box h2 {
     margin: 0;
     font-weight: 700;
     letter-spacing: 0.3em;
     font-size: 20px;
     color: #000;
-}
-h2 {
-    font-family: inherit;
-    line-height: 1.1;
-}
-h2 {
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 .quickies {
     position: relative;
@@ -877,8 +699,76 @@ h2 {
 .quickie h4 {
     min-height: 30px;
 }
+.main-feed {
+    border: 1px solid #f00;
+    border-width: 0 1px;
+}
+.col-sm-push-4 {
+    left: 33.33333333%;
+}
+.feed-link {
+    margin: 20px;
+}
+.post1 {
+    width: 33.33333333%;
+}
+.post1 {
+    float: left;
+}
+.post1 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.box {
+    width: 244px;
+    margin: 0 auto;
+    height: 52px;
+    text-align: center;
+    border: 3px solid #000;
+    background: #fff;
+}
 
-
+.box h3 {
+    margin: 16px 0 0;
+    font-weight: 100;
+    letter-spacing: 0.3em;
+    font-size: 14px;
+    color: #f00;
+    position: relative;
+}
+.col-sm-pull-4 {
+    right: 33.33333333%;
+}
+.post2 {
+    width: 33.33333333%;
+}
+.post2 {
+    float: left;
+}
+.post2 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.wide-thumbnail {
+    padding-top: 70%;
+    display: block;
+}
+.post3 {
+    width: 33.33333333%;
+}
+.post3 {
+    float: left;
+}
+.post3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
 
 
