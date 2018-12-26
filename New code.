@@ -4,17 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Enjoys Food</title>
-	<link rel="shortcut icon" type="image/x-icon" href="icon1.png">
+	<link rel="shortcut icon" href="icon1.png">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/style2.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-
-
 </head>
-<body class="home-page">
+<body class="home-page adthrive-device-desktop">
 <div id="menu">
 	<button type="button" class="hamburger is-closed animated fadeInLeft">
 		<span class="hamb-top"></span>
@@ -33,7 +32,7 @@
 			<input type="text" name="s" value placeholder="Search">
 		</form>
 	</div>
-	<div class="icon">
+	<div class="icons">
 		<a href="https://www.instagram.com/iamafoodblog/" class="square" target="_blank">
 			<div class="icon icon-ig"></div>
 		</a>
@@ -142,7 +141,7 @@
 				</a>
 			</div>
 			<div class="col-sm-8 text-center hero-link subscribe2">
-				<a href="#">Recipes</a>
+				<a href="recipe.html">Recipes</a>
 				<a href="#">Food</a>
 				<a href="#">Travel</a>
 			</div>
@@ -206,8 +205,21 @@
 				<h4>How To Roast Honeynut Squash</h4>
 			</a>
 			</div>
+			<div>
+			<a href="http://iamafoodblog.com/how-to-roast-honeynut-squash-honeynut-squash-with-honeyed-walnuts/" rel="bookmark" style="background: url(https://www.findingveggiejoy.com/wp-content/uploads/2017/11/How-to-Roast-Honeynut-Squash-Roasted-Squash-Finding-Veggie-Joy.jpg); background-size: cover;" class="tall-thumbnail"></a>
+			<a href="http://iamafoodblog.com/how-to-roast-honeynut-squash-honeynut-squash-with-honeyed-walnuts/" rel="bookmark" title="How to roast honeynut squash.">
+				<h4>How To Roast Honeynut Squash</h4>
+			</a>
+			</div>
 		</div>
 		<div class="col-sm-15 trangchu3">
+			<div>
+				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" style="background: url(http://www.naivecookcooks.com/wp-content/uploads/2016/08/slow-cooker-chicken-biryani-on-a-plate.jpg); background-size: cover;"
+				class="tall-thumbnail"></a>
+				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" title="Chicken Biryani Recipe.">
+					<h4>Chicken Biryani Recipe.</h4>
+				</a>
+			</div>
 			<div>
 				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" style="background: url(http://www.naivecookcooks.com/wp-content/uploads/2016/08/slow-cooker-chicken-biryani-on-a-plate.jpg); background-size: cover;"
 				class="tall-thumbnail"></a>
@@ -409,7 +421,7 @@
 					<!-- Footer -->
 
 			<div class="container text-center">
-				<hr />
+				<hr/>
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="col-md-3">
@@ -443,9 +455,6 @@
 
 			<script type="text/javascript" src="jquery.js"></script>
 			<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-		</body>
-		</html>
 
 </body>
 </html>
