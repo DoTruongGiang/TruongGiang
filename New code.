@@ -76,7 +76,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-6 overlay-menu">
+			<div class="col-sm-6 overlay-menu menu3">
 				<a href="#">Front Page</a>
 				<a href="#">All Recipes</a>
 				<a href="#">Make me something good</a>
@@ -84,7 +84,7 @@
 				<a href="#">Mains</a>
 				<a href="#">Breakfast/Brunch</a>
 			</div>
-			<div class="col-sm-6 overlay-menu side-menu">
+			<div class="col-sm-6 overlay-menu side-menu menu4">
 				<a href="/">Buy Guide</a>
 				<a href="/">Cooking Basic</a>
 				<hr class="noodle-hr">
@@ -141,9 +141,9 @@
 				</a>
 			</div>
 			<div class="col-sm-8 text-center hero-link subscribe2">
-				<a href="recipe.html">Recipes</a>
-				<a href="#">Food</a>
-				<a href="#">Travel</a>
+				<b> <a href="recipe.html">Recipes</a> </b>
+				<b> <a href="#">Food</a> </b>
+				<b> <a href="#">Travel</a> </b>
 			</div>
 			<div class="col-sm-2 text-right icons1">
 				<div class="icons">
@@ -184,6 +184,70 @@
 				<a href="#">FAQ</a>
 				<a href="#">NEW HERE?</a>
 			</div>
+
+			    <div class="containerr">
+        <!-- Button đăng nhập để mở form đăng nhập -->
+        <button id="myBtn">LOGIN</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Nội dung form đăng nhập -->
+            <div class="modal-content">
+                <form action="#">
+                    <span class="close">&times;</span>
+                    <b> <h2>ENJOYS FOOD </h2> </b>
+                    <div class="fomrgroup">
+                        <b>UserName:</b>
+                        <input type="text" placeholder="Enter Username" required>
+                    </div>
+                    <div class="fomrgroup">
+                        <b>PassWord:</b>
+                        <input type="password" placeholder="Enter Password" required>
+                    </div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <div class="fomrgroup">
+                        <br><button>LOGIN</button></br>
+                    </div>
+                    <div class="container" style="background-color:#f1f1f1">
+                        <span class="psw">Forgot <a href="#">password?</a> <a href="#">Sigin</a></span>
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        // lấy phần Modal
+        var modal = document.getElementById('myModal');
+
+        // Lấy phần button mở Modal
+        var btn = document.getElementById("myBtn");
+
+        // Lấy phần span đóng Modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // Khi button được click thi mở Modal
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // Khi span được click thì đóng Modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // Khi click ngoài Modal thì đóng Modal
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
 		</div>
 	</div>
 </div>
@@ -206,9 +270,9 @@
 			</a>
 			</div>
 			<div>
-			<a href="http://iamafoodblog.com/how-to-roast-honeynut-squash-honeynut-squash-with-honeyed-walnuts/" rel="bookmark" style="background: url(https://www.findingveggiejoy.com/wp-content/uploads/2017/11/How-to-Roast-Honeynut-Squash-Roasted-Squash-Finding-Veggie-Joy.jpg); background-size: cover;" class="tall-thumbnail"></a>
-			<a href="http://iamafoodblog.com/how-to-roast-honeynut-squash-honeynut-squash-with-honeyed-walnuts/" rel="bookmark" title="How to roast honeynut squash.">
-				<h4>How To Roast Honeynut Squash</h4>
+			<a href="http://iamafoodblog.com/how-to-roast-honeynut-squash-honeynut-squash-with-honeyed-walnuts/" rel="bookmark" style="background: url(http://iamafoodblog.com/wp-content/uploads/2018/12/IAM_3148.jpg); background-size: cover;" class="tall-thumbnail"></a>
+			<a href="http://iamafoodblog.com/how-to-roast-honeynut-squash-honeynut-squash-with-honeyed-walnuts/" rel="bookmark" title="The Cran-brie: Cranberry and Brie Grilled Cheese.">
+				<h4>The Cran-brie: Cranberry and Brie Grilled Cheese</h4>
 			</a>
 			</div>
 		</div>
@@ -216,15 +280,15 @@
 			<div>
 				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" style="background: url(http://www.naivecookcooks.com/wp-content/uploads/2016/08/slow-cooker-chicken-biryani-on-a-plate.jpg); background-size: cover;"
 				class="tall-thumbnail"></a>
-				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" title="Chicken Biryani Recipe.">
-					<h4>Chicken Biryani Recipe.</h4>
+				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" title="Chicken Biryani Recipe">
+					<h4>Chicken Biryani Recipe</h4>
 				</a>
 			</div>
 			<div>
-				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" style="background: url(http://www.naivecookcooks.com/wp-content/uploads/2016/08/slow-cooker-chicken-biryani-on-a-plate.jpg); background-size: cover;"
+				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" style="background: url(http://iamafoodblog.com/wp-content/uploads/2018/12/cinnamon-roll-mugs-recipe-4394.jpg); background-size: cover;"
 				class="tall-thumbnail"></a>
-				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" title="Chicken Biryani Recipe.">
-					<h4>Chicken Biryani Recipe.</h4>
+				<a href="http://iamafoodblog.com/dishooms-chicken-biryani-recipe-simplified/" rel="bookmark" title="Cinnamon Roll Mugs">
+					<h4>Cinnamon Roll Mugs</h4>
 				</a>
 			</div>
 		</div>
@@ -236,31 +300,31 @@
 		</div>
 		<div class="quickies noodle-br">
 			<div class="row">
-				<div class="col-sm-3 quickie">
-					<a href="#" title="How to Make Mini Yorkshine Puddings" style="background: url(https://www.kitchensanctuary.com/wp-content/uploads/2017/06/Perfect-Yorkshire-Pudding-Recipe-square-FS.jpg) center center no-repeat background-size: cover;" class="background"></a>
+				<div class="col-sm-3 quickie make1">
+					<a href="#" title="How to Make Mini Yorkshine Puddings" style="background: url(https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/50/2007/08/Yorkshire-pudding.jpg) center center no-repeat; background-size: cover;" class="background"></a>
 					<a href="#" title="How to Make Mini Yorkshine Puddings" class="posttitle">
 						<h4>How to Make Yorkshine Puddings</h4>
 					</a>
 					<a href="#" title="How to Make Yorkshine Puddings" class="read-more">Make It</a>
 				</div>
-				<div class="col-sm-3 quickie">
-					<a href="#" title="How to Make Mini Yorkshine Puddings" style="background: url(https://www.kitchensanctuary.com/wp-content/uploads/2017/06/Perfect-Yorkshire-Pudding-Recipe-square-FS.jpg) center center no-repeat background-size: cover;" class="background"></a>
-					<a href="#" title="How to Make Mini Yorkshine Puddings" class="posttitle">
-						<h4>How to Make Yorkshine Puddings</h4>
+				<div class="col-sm-3 quickie make2">
+					<a href="#" title="How to Make the Ultimate Chocolate Chip Cookie" style="background: url(hhttp://sunnysideups.org/wp-content/uploads/2015/04/CCCookie2.jpg) center center no-repeat; background-size: cover;" class="background"></a>
+					<a href="#" title="How to Make the Ultimate Chocolate Chip Cookie" class="posttitle">
+						<h4>How to Make the Ultimate Chocolate Chip Cookie</h4>
 					</a>
 					<a href="#" title="How to Make Yorkshine Puddings" class="read-more">Make It</a>
 				</div>
-				<div class="col-sm-3 quickie">
-					<a href="#" title="How to Make Mini Yorkshine Puddings" style="background: url(https://www.kitchensanctuary.com/wp-content/uploads/2017/06/Perfect-Yorkshire-Pudding-Recipe-square-FS.jpg) center center no-repeat background-size: cover;" class="background"></a>
-					<a href="#" title="How to Make Mini Yorkshine Puddings" class="posttitle">
-						<h4>How to Make Yorkshine Puddings</h4>
+				<div class="col-sm-3 quickie make3">
+					<a href="#" title="Raspberry Strawberry Watermelon Popsicle Recipe" style="background: url(http://iamafoodblog.com/wp-content/uploads/2014/06/raspberry-pops-12.jpg) center center no-repeat; background-size: cover;" class="background"></a>
+					<a href="#" title="Raspberry Strawberry Watermelon Popsicle Recipe" class="posttitle">
+						<h4>Raspberry Strawberry Watermelon Popsicle Recipe</h4>
 					</a>
 					<a href="#" title="How to Make Yorkshine Puddings" class="read-more">Make It</a>
 				</div>
-				<div class="col-sm-3 quickie">
-					<a href="#" title="How to Make Mini Yorkshine Puddings" style="background: url(https://www.kitchensanctuary.com/wp-content/uploads/2017/06/Perfect-Yorkshire-Pudding-Recipe-square-FS.jpg) center center no-repeat background-size: cover;" class="background"></a>
-					<a href="#" title="How to Make Mini Yorkshine Puddings" class="posttitle">
-						<h4>How to Make Yorkshine Puddings</h4>
+				<div class="col-sm-3 quickie make4">
+					<a href="#" title="Watermelon Burrata Salad Recipe" style="background: url(http://iamafoodblog.com/wp-content/uploads/2014/04/watermelon-burrata-4.jpg) center center no-repeat; background-size: cover;" class="background"></a>
+					<a href="#" title="Watermelon Burrata Salad Recipe" class="posttitle">
+						<h4>Watermelon Burrata Salad Recipe</h4>
 					</a>
 					<a href="#" title="How to Make Yorkshine Puddings" class="read-more">Make It</a>
 				</div>
@@ -275,21 +339,21 @@
 				</h3>
 			</div>
 			<div class="feed-link">
-				<a href="#" rel="bookmark" style="background: url(http://iamafoodblog.com/wp-content/uploads/2016/02/stockholm-trip-www.iamafoodblog.com-18.jpg) center center no-repeat background-size: cover;" class="tall-thumbnail"></a>
+				<a href="#" rel="bookmark" style="background: url(http://iamafoodblog.com/wp-content/uploads/2016/02/stockholm-trip-www.iamafoodblog.com-18.jpg) center center no-repeat; background-size: cover;" class="tall-thumbnail"></a>
 				<a href="#" rel="bookmark" title="Swedish Meatballs with Ice-cream" class>
 					<h4>Swedish Meatballs with Ice-cream</h4>
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" rel="bookmark" style="background: url(http://iamafoodblog.com/wp-content/uploads/2016/02/stockholm-trip-www.iamafoodblog.com-18.jpg) center center no-repeat background-size: cover;" class="tall-thumbnail"></a>
-				<a href="#" rel="bookmark" title="Swedish Meatballs with Ice-cream" class>
-					<h4>Swedish Meatballs with Ice-cream</h4>
+				<a href="#" rel="bookmark" style="background: url(http://iamafoodblog.com/wp-content/uploads/2018/12/iama-3640.jpg) center center no-repeat; background-size: cover;" class="tall-thumbnail"></a>
+				<a href="#" rel="bookmark" title="How to Roast Honeynut Squash" class>
+					<h4>How to Roast Honeynut Squash</h4>
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" rel="bookmark" style="background: url(http://iamafoodblog.com/wp-content/uploads/2016/02/stockholm-trip-www.iamafoodblog.com-18.jpg) center center no-repeat background-size: cover;" class="tall-thumbnail"></a>
-				<a href="#" rel="bookmark" title="Swedish Meatballs with Ice-cream" class>
-					<h4>Swedish Meatballs with Ice-cream</h4>
+				<a href="#" rel="bookmark" style="background: url(http://iamafoodblog.com/wp-content/uploads/2018/12/2018-cute-kitchen.jpg) center center no-repeat; background-size: cover;" class="tall-thumbnail"></a>
+				<a href="#" rel="bookmark" title="2018 Holiday Gift Guide" class>
+					<h4>2018 Holiday Gift Guide</h4>
 			</div>
 		</div>
 		<div class="col-sm-4 col-sm-pull-4 post2">
@@ -305,27 +369,27 @@
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
-				<a href="#" title="What Make to this JANUARY" class="posttitle">
-					<h4>What Make to this JANUARY</h4>
+				<a href="#" title="The Most Stress Free Thanksgiving You’ll Ever Host: An Instant Pot Thanksgiving Dinner" style="background: url(http://iamafoodblog.com/wp-content/uploads/2018/11/IAM_2337.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+				<a href="#" title="The Most Stress Free Thanksgiving You’ll Ever Host: An Instant Pot Thanksgiving Dinner" class="posttitle">
+					<h4>The Most Stress Free Thanksgiving You’ll Ever Host: An Instant Pot Thanksgiving Dinner</h4>
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
-				<a href="#" title="What Make to this JANUARY" class="posttitle">
-					<h4>What Make to this JANUARY</h4>
+				<a href="#" title="What to Cook in May" style="background: url(http://iamafoodblog.com/wp-content/uploads/2015/08/avocado-pasta-8w.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+				<a href="#" title="What to Cook in May" class="posttitle">
+					<h4>What to Cook in May</h4>
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
-				<a href="#" title="What Make to this JANUARY" class="posttitle">
-					<h4>What Make to this JANUARY</h4>
+				<a href="#" title="What to Cook in Winter" style="background: url(https://www.tasteofhome.com/wp-content/uploads/2017/10/Wild-Rice-Stuffed-Squash_EXPS_HPLBZ17_29144_B06_02_4b-696x696.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+				<a href="#" title="What to Cook in Winter" class="posttitle">
+					<h4>What to Cook in Winter</h4>
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
-				<a href="#" title="What Make to this JANUARY" class="posttitle">
-					<h4>What Make to this JANUARY</h4>
+				<a href="#" title="Street Food" style="background: url(https://cdn.cnn.com/cnnnext/dam/assets/141027232843-ny-street-food-5-bolivianllamaparty.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+				<a href="#" title="Street Food" class="posttitle">
+					<h4>Street Food</h4>
 				</a>
 			</div>
 		</div>
@@ -342,32 +406,90 @@
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" title="Our Hokkaido Adventure" style="background: url(https://c-lj.gnst.jp/public/article/detail/a/10/00/a1000113/img/basic/a1000113_main.jpg?20181023161317) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
-				<a href="#" title="Our Hokkaido Adventure" class="posttitle">
-					<h4>Our Hokkaido Adventure</h4>
+				<a href="#" title="Mount Fuji from Tokyo" style="background: url(https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/06/16623865070_af3c2f205c_b-770x514.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+				<a href="#" title="Mount Fuji from Tokyo" class="posttitle">
+					<h4>Mount Fuji from Tokyo</h4>
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" title="Our Hokkaido Adventure" style="background: url(https://c-lj.gnst.jp/public/article/detail/a/10/00/a1000113/img/basic/a1000113_main.jpg?20181023161317) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
-				<a href="#" title="Our Hokkaido Adventure" class="posttitle">
-					<h4>Our Hokkaido Adventure</h4>
+				<a href="#" title="The best Chinese Food" style="background: url(http://iamafoodblog.com/wp-content/uploads/2018/06/beijing-noodle-number-9_1770.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+				<a href="#" title="The best Chinese Food" class="posttitle">
+					<h4>The best Chinese Food</h4>
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" title="Our Hokkaido Adventure" style="background: url(https://c-lj.gnst.jp/public/article/detail/a/10/00/a1000113/img/basic/a1000113_main.jpg?20181023161317) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
-				<a href="#" title="Our Hokkaido Adventure" class="posttitle">
-					<h4>Our Hokkaido Adventure</h4>
+				<a href="#" title="the Best Food Festival in the World" style="background: url(http://iamafoodblog.com/wp-content/uploads/2018/05/IAM_0798.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+				<a href="#" title="the Best Food Festival in the World" class="posttitle">
+					<h4>the Best Food Festival in the World</h4>
 				</a>
 			</div>
 			<div class="feed-link">
-				<a href="#" title="Our Hokkaido Adventure" style="background: url(https://c-lj.gnst.jp/public/article/detail/a/10/00/a1000113/img/basic/a1000113_main.jpg?20181023161317) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
-				<a href="#" title="Our Hokkaido Adventure" class="posttitle">
-					<h4>Our Hokkaido Adventure</h4>
+				<a href="#" title="10 of the best restaurants on Grubhub" style="background: url(http://iamafoodblog.com/wp-content/uploads/2018/07/meat-and-bread.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+				<a href="#" title="10 of the best restaurants on Grubhub" class="posttitle">
+					<h4>10 of the best restaurants on Grubhub</h4>
 				</a>
 			</div>
 		</div>	
 	</div>
 </div>
+	<div id="footer-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 footer1">
+					<div class="subscribe-container">
+						<h3>Subscribe to our new letter and never miss another post</h3>
+						<div>
+							<form class="es_shortcode_form" data-es_form_id="es_shortcode_form">
+								<div class="es_lablebox">
+									<label class="es_shortcode_form_name">Name</label>
+								</div>
+								<div class="es_textbox">
+									<input type="text" id="es_txt_name_pg" class="es_textbox_class" name="es_txt_name_pg" value maxlength="225">
+								</div>
+								<div class="es_lablebox">
+									<label class="es_shortcode_form_email">Email</label>
+								</div>
+								<div class="es_textbox">
+									<input type="text" id="es_txt_email_pg" class="es_textbox_class" name="es_txt_email_pg" value maxlength="225">
+								</div>
+								<div class="es_button">
+									<input type="button" id="es_txt_button_pg" class="es_textbox_button es_submit_button" name="es_textbox_button" 
+									onclick="return es_submit_page(event, 'html.html')" value="Subscribe">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 footer2">
+					<h3>Follow me</h3>
+					<div class="icons">
+						<a href="https://www.instagram.com/iamafoodblog/" class="square" target="_blank">
+							<div class="icon icon-ig"></div>
+						</a>
+						<a href="https://www.pinterest.com/iamafoodblog/" target="_blank">
+							<div class="icon icon-pin"></div>
+						</a>
+						<a href="https://www.facebook.com/iamafoodblog" target="_blank" class="square">
+							<div class="icon icon-fb"></div>
+						</a>
+						<a href="https://www.bloglovin.com/blogs/i-am-a-food-blog-3494862" target="_blank">
+							<div class="icon icon-bl"></div>
+						</a>
+					</div>
+					<a href="#">About</a>
+					"|
+					<a href="#">FAQ</a>
+					"|
+					<a href="#">New Here?</a>
+					"|
+					<a href="#">Contact</a>
+				</div>
+			</div>
+			<div class="logo"></div>
+			"
+			Copyright © 2017 Enjoysfood, all right reserved"
+		</div>
+	</div>
 
 
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -418,43 +540,3 @@
 							</ul>
 						</div>
 					</div>
-					<!-- Footer -->
-
-			<div class="container text-center">
-				<hr/>
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="col-md-3">
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Blog</a></li>
-							</ul>
-						</div>
-						<div class="col-md-3">
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Product for Mac</a></li>
-								<li><a href="#">Product for Windows</a></li>
-							</ul>
-						</div>
-						<div class="col-md-3">
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Web analytics</a></li>
-								<li><a href="#">Presentations</a></li>          
-							</ul>
-						</div>
-						<div class="col-md-3">
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Product Help</a></li>
-								<li><a href="#">Developer API</a></li>
-						=><a href="#">Terms of Service</a></li>
-							<li><a href="#">Privacy</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<script type="text/javascript" src="jquery.js"></script>
-			<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-</body>
-</html>
