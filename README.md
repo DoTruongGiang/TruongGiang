@@ -1,2 +1,0 @@
-# TruongGiang
-Student
