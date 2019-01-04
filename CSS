@@ -10,6 +10,18 @@
     padding-right: 15px;
     padding-left: 15px;
 }
+.menu3, .menu4 {
+    width: 50%;
+}
+.menu3, .menu4 {
+    float: left;
+}
+.menu3, .menu4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
 .trangchu2, .trangchu3{
     position: relative;
     min-height: 1px;
@@ -22,7 +34,34 @@
     padding-right: 10px;
     padding-left: 10px;
 }
-
+.make1, .make2, .make3, .make4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 768px){
+   .make1, .make2, .make3, .make4 {
+    width: 25%;
+    float: left;
+   } 
+}
+.post1, .post2, .post3 {
+    border: 1px solid #eee;
+    border-width: 0 1px;
+}
+.post1, .post2, .post3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 768px){
+    .post1, .post2, .post3 {
+        width: 33.33333333%;
+        float: left;
+    }
+}
 @media (min-width: 768px) {
 	.trangchu2, .trangchu3 {
         width: 19%;
@@ -733,3 +772,49 @@ button.icon-search {
 	    display: none !important;
 	}
 }
+#footer-container {
+    background: #f4f4f4;
+    padding: 40px 0 80px;
+    margin-top: 40px;
+}
+#footer-container h3 {
+    font-size: 19px;
+    margin: 30px 0;
+}
+#footer-container .icon {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+#footer-container input[type=button] {
+    border: 0;
+    background: #111;
+    color: #fff;
+}
+#footer-container .icons {
+    margin-bottom: 30px;
+}
+#footer-container .logo {
+    width: 200px;
+    height: 30px;
+    opacity: 0.8;
+    margin: 30px 0 10px;
+}
+#footer-container a {
+    color: #000;
+}
+.es_lablebox {
+    float: left;
+}
+.es_button {
+    padding: 0;
+}
+.es_textbox {
+    padding-bottom: 10px;
+    float: left;
+    margin: 0 10px;
+}
+
+
+
