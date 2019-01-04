@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Recipes</title>
+	<link rel="shortcut icon" type="image/x-icon" href="icon1.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body class="adthrive-device-desktop">
+	<div id="menu">
+	<button type="button" class="hamburger is-closed animated fadeInLeft">
+		<span class="hamb-top"></span>
+		<span class="hamb-middle"></span>
+		<span class="hamb-bottom"></span>
+	</button>
+	<a href="html.html" class="logo">
+		<h1>Enjoys Food</h1>
+	</a>
+	<a href="#" class="subscribe-link">Subcribe</a>
+	<div class="mini-search">
+		<form role="search" method="get" action="/">
+			<button class="icon-search">
+				<span>Search Enjoys Food</span>
+			</button>
+			<input type="text" name="s" value placeholder="Search">
+		</form>
+	</div>
+	<div class="icons">
+		<a href="#" class="square" target="_blank">
+			<div class="icon icon-ig"></div>
+		</a>
+		<a href="#" target="_blank">
+			<div class="icon icon-pin"></div>
+		</a>
+		<a href="#" target="_blank" class="square">
+			<div class="icon icon-fb"></div>
+		</a>
+		<a href="#" target="_blank">
+			<div class="icon icon-bl"></div>
+		</a>
+	</div>
+	</div>
+	<div class="overlay display-font">
+		<div class="col-sm-7 overlay1">
+			<div class="row" style="padding-top: 100px;">
+				<div class="col-sm-6 search1">
+					<form role="search" method="get" action="/">
+						<button class="icon-search">
+							<span>Search Enjoys food</span>
+						</button>
+						<input type="text" name="s" value placeholder="Search">
+					</form>
+				</div>
+				<div class="col-sm-6 icon1">
+					<div class="icons">
+						<a href="#" class="square" target="_blank">
+							<div class="icon icon-ig"></div>
+						</a>
+						<a href="#" target="_blank">
+							<div class="icon icon-pin"></div>
+						</a>
+						<a href="#" target="_blank" class="square">
+							<div class="icon icon-fb"></div>
+						</a>
+						<a href="#" target="_blank">
+							<div class="icon icon-bl"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 overlay-menu menu3">
+					<a href="#">Front Page</a>
+					<a href="#">All Recipes</a>
+					<a href="#">Make me something good</a>
+					<a href="#">Quick & Easy</a>
+					<a href="#">Mains</a>
+					<a href="#">Breakfast/Brunch</a>
+				</div>
+				<div class="col-sm-6 overlay-menu side-menu menu4">
+					<a href="/">Buy Guide</a>
+					<a href="/">Cooking Basic</a>
+					<hr class="noodle-hr">
+					<a href="/">Contact</a>
+					<a href="/">Work with us</a>
+				</div>
+			</div>
+		</div>	
+		<div class="col-sm-5 overlay2" style="height: 100%;">
+			<div class="sidekick">
+				<a href="#" title="Malaysian Flatbread" style="background: url(https://flockler.com/thumbs/sites/192/malaysian-flatbread_s1200x630_c989x578_l0x424.png);" class="background"></a>
+				<a href="#" title="Malaysian Flatbread" class="posttitle">
+					<h4>
+						"From the archives"
+						<br>
+						"Malaysian Flatbread"
+					</h4>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="search-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 search100">
+					<form role="search" method="get" action="/" class="search-form">
+						<input value placeholder="Search" name="s" class="search" type="text" data-current="Search">
+						<button class="search-button">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+								<g>
+									<path class="single-menu" d="M91.473,78.791L75.877,63.193c4.237-6.102,6.728-13.512,6.728-21.49c0-20.844-16.962-37.799-37.805-37.799    C23.956,3.904,7,20.859,7,41.703c0,20.849,16.956,37.803,37.8,37.803c5.744,0,11.189-1.29,16.069-3.593l16.742,16.744    c1.805,1.799,4.214,2.79,6.777,2.79c2.627,0,5.106-1.032,6.979-2.901C95.187,88.725,95.234,82.55,91.473,78.791z M22.119,41.703    c0-12.505,10.176-22.682,22.681-22.682c12.507,0,22.683,10.177,22.683,22.682c0,12.509-10.176,22.685-22.683,22.685    C32.295,64.388,22.119,54.212,22.119,41.703z"></path>
+								</g>
+							</svg>
+						</button>
+					</form>
+				</div>
+				<div class="col-sm-4 searchbytag">
+					<select id="tags" data-placeholder="Search by tag" style="display: none;">
+						<option class="placeholder"></option>
+						<option data-href="/tag/15-mitutes-meals">15 minutes meals (1)</option>
+						<option data-href="/tag/2-minutes">2 minutes (1)</option>
+						<option data-href="/tag/apple">apple (4)</option>
+						<option data-href="/tag/banana">banana (4)</option>
+						<option data-href="/tag/beef">beef (10)</option>
+						<option data-href="/tag/caramel">caramel (1)</option>
+						<option data-href="/tag/carrot">carrot (3)</option>
+						<option data-href="/tag/dinner">dinner (3)</option>
+						<option data-href="/tag/egg">egg (10)</option>
+						<option data-href="/tag/fruit">fruit (1)</option>
+						<option data-href="/tag/juice">juice (1)</option>
+						<option data-href="/tag/ice-cream">ice-cream (3)</option>
+					</select>
+					<div class="chosen-container chosen-container-single" style="width: 100%;" title id="tags_chosen">
+						<a class="chosen-single chosen-default" tabindex="-1">
+							<span>Search by tag</span>
+							<div>
+								<b></b>
+							</div>
+						</a>
+						<div class="chosen-drop">
+							<div class="chosen-search">
+								<input type="text" autocomplete="off">
+							</div>
+							<ul class="chosen-results"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-archive">
+		<h2 id="title" data-page="Recipes">Recipes</h2>
+		<div class="row">
+			<div class="col-sm-3 recipe1">
+				<div class="feed-link">
+					<a href="Recipe1,1" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="Recipe1,1" title="What Make to this JANUARY" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>What Make to this JANUARY</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe2">
+				<div class="feed-link">
+					<a href="#" title="Small Batch Cookie Baking Tips" style="background: url(https://www.handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Small Batch Cookie Baking Tips" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Small Batch Cookie Baking Tips</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe3">
+				<div class="feed-link">
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" style="background: url(http://www.justalittlebitofbacon.com/wp-content/uploads/2015/11/turkey-brie-and-cranberry-panini-1.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>The Cran-brie: Cranberry and Brie Grilled Cheese</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe4">
+				<div class="feed-link">
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" style="background: url(http://littlespicejar.com/wp-content/uploads/2018/02/Instant-Pot-Chicken-Pho-5-710x1065.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Authentic Instant Pot Chicken Pho Recipe</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe1">
+				<div class="feed-link">
+					<a href="Recipe1,1" title="Instant Pot Garlic Mashed Potatoes Recipe" style="background: url(https://myfoodstory.com/wp-content/uploads/2017/11/Instant-Pot-Garlic-Mashed-Potatoes-4.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="Recipe1,1" title="Instant Pot Garlic Mashed Potatoes Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Instant Pot Garlic Mashed Potatoes Recipe</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe2">
+				<div class="feed-link">
+					<a href="#" title="Best Way To Make Roast Beef" style="background: url(https://www.bbcgoodfood.com/sites/default/files/editor_files/2018/02/beef-sirloin-shallots-onions-banana.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Best Way To Make Roast Beef" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Best Way To Make Roast Beef</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe3">
+				<div class="feed-link">
+					<a href="#" title="Spaghetti and Eggs Recipe" style="background: url(https://img.taste.com.au/cszdPyK7/taste/2016/11/spaghetti-with-asparagus-and-fried-egg-11492-1.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Spaghetti and Eggs Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Spaghetti and Eggs Recipe</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe4">
+				<div class="feed-link">
+					<a href="#" title="Easy Sparkling Sangria" style="background: url(http://holicoffee.com/wp-content/uploads/2014/05/sparkling-fruit-sangria-cocktail-cheap-easy-alcohol-holiday-party-drink-recipe.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Easy Sparkling Sangria" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Easy Sparkling Sangria</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe1">
+				<div class="feed-link">
+					<a href="Recipe1,1" title="Creamy Spinach and Mushroom Pasta Recipe" style="background: url(http://farm4.static.flickr.com/3289/4554976936_b08bf644bb.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="Recipe1,1" title="Creamy Spinach and Mushroom Pasta Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Creamy Spinach and Mushroom Pasta Recipe</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe2">
+				<div class="feed-link">
+					<a href="#" title="Carrot-Coconut Bunny Loaf" style="background: url(https://data.thefeedfeed.com/recommended/post_2101642.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Carrot-Coconut Bunny Loaf" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Carrot-Coconut Bunny Loaf</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe3">
+				<div class="feed-link">
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" style="background: url(http://www.justalittlebitofbacon.com/wp-content/uploads/2015/11/turkey-brie-and-cranberry-panini-1.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>The Cran-brie: Cranberry and Brie Grilled Cheese</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe4">
+				<div class="feed-link">
+					<a href="#" title="Coddled Egg Recipe" style="background: url(https://assets.bonappetit.com/photos/57acc8351b334044149751a9/16:9/w_1200,c_limit/perfect-coddled-egg.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Coddled Egg Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Coddled Egg Recipe</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe1">
+				<div class="feed-link">
+					<a href="Recipe1,1" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="Recipe1,1" title="What Make to this JANUARY" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>What Make to this JANUARY</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe2">
+				<div class="feed-link">
+					<a href="#" title="Small Batch Cookie Baking Tips" style="background: url(https://www.handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Small Batch Cookie Baking Tips" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Small Batch Cookie Baking Tips</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe3">
+				<div class="feed-link">
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" style="background: url(http://www.justalittlebitofbacon.com/wp-content/uploads/2015/11/turkey-brie-and-cranberry-panini-1.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>The Cran-brie: Cranberry and Brie Grilled Cheese</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe4">
+				<div class="feed-link">
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" style="background: url(http://littlespicejar.com/wp-content/uploads/2018/02/Instant-Pot-Chicken-Pho-5-710x1065.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Authentic Instant Pot Chicken Pho Recipe</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe1">
+				<div class="feed-link">
+					<a href="Recipe1,1" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="Recipe1,1" title="What Make to this JANUARY" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>What Make to this JANUARY</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe2">
+				<div class="feed-link">
+					<a href="#" title="Small Batch Cookie Baking Tips" style="background: url(https://www.handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Small Batch Cookie Baking Tips" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Small Batch Cookie Baking Tips</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe3">
+				<div class="feed-link">
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" style="background: url(http://www.justalittlebitofbacon.com/wp-content/uploads/2015/11/turkey-brie-and-cranberry-panini-1.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>The Cran-brie: Cranberry and Brie Grilled Cheese</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe4">
+				<div class="feed-link">
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" style="background: url(http://littlespicejar.com/wp-content/uploads/2018/02/Instant-Pot-Chicken-Pho-5-710x1065.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Authentic Instant Pot Chicken Pho Recipe</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe1">
+				<div class="feed-link">
+					<a href="Recipe1,1" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="Recipe1,1" title="What Make to this JANUARY" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>What Make to this JANUARY</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe2">
+				<div class="feed-link">
+					<a href="#" title="Small Batch Cookie Baking Tips" style="background: url(https://www.handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Small Batch Cookie Baking Tips" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Small Batch Cookie Baking Tips</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe3">
+				<div class="feed-link">
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" style="background: url(http://www.justalittlebitofbacon.com/wp-content/uploads/2015/11/turkey-brie-and-cranberry-panini-1.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>The Cran-brie: Cranberry and Brie Grilled Cheese</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe4">
+				<div class="feed-link">
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" style="background: url(http://littlespicejar.com/wp-content/uploads/2018/02/Instant-Pot-Chicken-Pho-5-710x1065.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Authentic Instant Pot Chicken Pho Recipe</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe1">
+				<div class="feed-link">
+					<a href="Recipe1,1" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="Recipe1,1" title="What Make to this JANUARY" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>What Make to this JANUARY</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe2">
+				<div class="feed-link">
+					<a href="#" title="Small Batch Cookie Baking Tips" style="background: url(https://www.handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Small Batch Cookie Baking Tips" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Small Batch Cookie Baking Tips</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe3">
+				<div class="feed-link">
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" style="background: url(http://www.justalittlebitofbacon.com/wp-content/uploads/2015/11/turkey-brie-and-cranberry-panini-1.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>The Cran-brie: Cranberry and Brie Grilled Cheese</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe4">
+				<div class="feed-link">
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" style="background: url(http://littlespicejar.com/wp-content/uploads/2018/02/Instant-Pot-Chicken-Pho-5-710x1065.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Authentic Instant Pot Chicken Pho Recipe</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe1">
+				<div class="feed-link">
+					<a href="Recipe1,1" title="What Make to this JANUARY" style="background: url(http://www.fnstatic.co.uk/images/content/package/31-healthy-ish-foods-you-should-cook-in-january.jpeg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="Recipe1,1" title="What Make to this JANUARY" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>What Make to this JANUARY</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe2">
+				<div class="feed-link">
+					<a href="#" title="Small Batch Cookie Baking Tips" style="background: url(https://www.handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Small Batch Cookie Baking Tips" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Small Batch Cookie Baking Tips</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe3">
+				<div class="feed-link">
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" style="background: url(http://www.justalittlebitofbacon.com/wp-content/uploads/2015/11/turkey-brie-and-cranberry-panini-1.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="The Cran-brie: Cranberry and Brie Grilled Cheese" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>The Cran-brie: Cranberry and Brie Grilled Cheese</h4>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3 recipe4">
+				<div class="feed-link">
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" style="background: url(http://littlespicejar.com/wp-content/uploads/2018/02/Instant-Pot-Chicken-Pho-5-710x1065.jpg) center center no-repeat; background-size: cover;" class="wide-thumbnail"></a>
+					<a href="#" title="Authentic Instant Pot Chicken Pho Recipe" class="posttitle">
+						<span class="date">December 15, 2018</span>
+						<h4>Authentic Instant Pot Chicken Pho Recipe</h4>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pagination">
+		<a href="Recipe2.html">More Recipes</a>
+	</div>
+	<div id="footer-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 footer1">
+					<div class="subscribe-container">
+						<h3>Subscribe to our new letter and never miss another post</h3>
+						<div>
+							<form class="es_shortcode_form" data-es_form_id="es_shortcode_form">
+								<div class="es_lablebox">
+									<label class="es_shortcode_form_name">Name</label>
+								</div>
+								<div class="es_textbox">
+									<input type="text" id="es_txt_name_pg" class="es_textbox_class" name="es_txt_name_pg" value maxlength="225">
+								</div>
+								<div class="es_lablebox">
+									<label class="es_shortcode_form_email">Email</label>
+								</div>
+								<div class="es_textbox">
+									<input type="text" id="es_txt_email_pg" class="es_textbox_class" name="es_txt_email_pg" value maxlength="225">
+								</div>
+								<div class="es_button">
+									<input type="button" id="es_txt_button_pg" class="es_textbox_button es_submit_button" name="es_textbox_button" 
+									onclick="return es_submit_page(event, 'html.html')" value="Subscribe">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 footer2">
+					<h3>Follow me</h3>
+					<div class="icons">
+						<a href="#" class="square" target="_blank">
+							<div class="icon icon-ig"></div>
+						</a>
+						<a href="#" target="_blank">
+							<div class="icon icon-pin"></div>
+						</a>
+						<a href="#" target="_blank" class="square">
+							<div class="icon icon-fb"></div>
+						</a>
+						<a href="#" target="_blank">
+							<div class="icon icon-bl"></div>
+						</a>
+					</div>
+					<a href="#">About</a>
+					"|
+					<a href="#">QNA</a>
+					"|
+					<a href="#">New Here?</a>
+					"|
+					<a href="#">Contact</a>
+				</div>
+			</div>
+			<div class="logo"></div>
+			"
+			Copyright © 2017 Enjoysfood, all right reserved"
+		</div>
+	</div>
+
+
+</body>
+</html>
